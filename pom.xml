@@ -75,7 +75,7 @@
                 <artifactId>maven-install-plugin</artifactId>
                 <version>3.1.2</version>
             </plugin>
-
+<!-- mvn install:install-file -Dfile="path\to\desktop-game-engine.jar" -DgroupId="com.javarush" -DartifactId=desktop-game-engine -Dversion="1.0" -Dpackaging=jar -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
